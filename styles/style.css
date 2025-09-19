@@ -15,10 +15,18 @@ body {
 }
 
 p {
-    font-family: "Quicksand", sans-serif;
     text-align: center;
     font-size: 18pt;
     color: var(--darkblue);
+}
+
+body {
+    font-family: "Quicksand", sans-serif;
+    text-align: center;
+    background-image: url(/images/bg.svg);
+    background-repeat: no-repeat;
+    background-position: -80% 40%;
+    background-size: 120%;
 }
 
 .preview {
